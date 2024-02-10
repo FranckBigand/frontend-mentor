@@ -1,0 +1,51 @@
+body {
+  --body-margin: var(1em);
+  margin: 0;
+  font-family: "Outfit";
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+body main {
+  flex: 1;
+}
+
+.qr-code-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-code-card {
+  border-radius: 1em;
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+  width: min(100%, 21em);
+  text-align: center;
+}
+
+.qr-code-image {
+  border-radius: 1em;
+  width: 100%;
+}
+
+.card-section {
+  --section-padding: 1.7em;
+  padding-left: var(--section-padding);
+  padding-right: var(--section-padding);
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+}
+
+.card-details {
+  color: hsl(220, 15%, 55%);
+}
