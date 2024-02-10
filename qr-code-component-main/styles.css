@@ -1,17 +1,17 @@
 body {
-  --body-margin: var(1em);
-  margin: 0;
+  --body-margin: 1em;
+  margin: var(--body-margin);
   font-family: "Outfit";
   font-size: 15px;
   background-color: hsl(212, 45%, 89%);
 
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: calc(100vh - 2 * var(--body-margin));
 }
 
 body main {
-  flex: 1;
+  flex-grow: 1;
 }
 
 .qr-code-card-container {
