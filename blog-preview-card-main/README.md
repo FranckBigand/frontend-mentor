@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/FranckBigand/frontend-mentor/tree/main/blog-preview-card-main](https://github.com/FranckBigand/frontend-mentor/tree/main/blog-preview-card-main)
+- Live Site URL: [https://franckbigand.github.io/frontend-mentor/blog-preview-card-main/index.html](https://franckbigand.github.io/frontend-mentor/blog-preview-card-main/index.html)
 
 ## My process
 
