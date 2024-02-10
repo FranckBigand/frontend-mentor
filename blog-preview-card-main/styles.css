@@ -1,0 +1,101 @@
+:root {
+  --yellow-primary: hsl(47, 88%, 63%);
+  --grey-neutral: hsl(0, 0%, 50%);
+  --black-neutral: hsl(0, 0%, 7%);
+
+  --font-weight-normal: 600;
+  --font-weight-bold: 800;
+}
+
+body {
+  --body-margin: 1em;
+  margin: var(--body-margin);
+  height: calc(100dvh - 2 * var(--body-margin));
+  font-family: "Figtree";
+  background-color: var(--yellow-primary);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+address {
+  all: unset;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.article-cards {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-card {
+  background-color: white;
+  padding: 1.2em;
+  border-radius: 1em;
+  border: 1px solid black;
+  --box-shadow-size: 15px;
+  box-shadow: var(--box-shadow-size) var(--box-shadow-size) black;
+  width: min(100%, 20em);
+}
+
+.article-card-illustration {
+  border-radius: 1em;
+  width: 100%;
+}
+
+ul.tag-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.tag-list {
+  display: flex;
+}
+
+.tag {
+  font-size: 0.75em;
+  background-color: var(--yellow-primary);
+  padding: 0.5em 1em;
+  border-radius: 0.4em;
+  font-weight: var(--font-weight-bold);
+}
+
+.article-card-publication-date {
+  font-size: 0.75em;
+}
+
+.article-card-title {
+  font-size: 1.2em;
+  font-weight: var(--font-weight-bold);
+}
+.article-card-title > a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.article-card-title > a:hover {
+  color: var(--yellow-primary);
+}
+
+.article-card-description {
+  color: var(--grey-neutral);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.author-profile-picture {
+  height: 2em;
+}
+
+.author-name {
+  font-weight: var(--font-weight-bold);
+  font-size: 0.9em;
+}

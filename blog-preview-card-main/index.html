@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Figtree"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Blog preview card</title>
 
-  Learning
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <div class="article-cards">
+        <article class="article-card">
+          <img
+            src="./assets/images/illustration-article.svg"
+            alt="Article illustration"
+            class="article-card-illustration"
+          />
+          <ul class="tag-list">
+            <li class="tag">Learning</li>
+          </ul>
+          <div class="article-card-publication-date">
+            Published <time datetime="2023-12-21">21 Dec 2023</time>
+          </div>
+          <h2 class="article-card-title">
+            <a href="#">HTML & CSS foundations</a>
+          </h2>
+          <p class="article-card-description">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+          <address class="author">
+            <img
+              src="./assets/images/image-avatar.webp"
+              alt="Author profile picture"
+              class="author-profile-picture"
+            />
+            <span class="author-name">Greg Hooper</span>
+          </address>
+        </article>
+      </div>
+    </main>
 
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by Franck Bigand.
+      </div>
+    </footer>
+  </body>
 </html>
